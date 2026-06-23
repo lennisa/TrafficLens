@@ -272,7 +272,11 @@ pip install -r requirements.txt
 Run the backend:
 
 ```bash
+
  python -m uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+
+ python -m uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+
 ```
 
 ### 3. Frontend Setup
@@ -282,7 +286,11 @@ Open a new terminal:
 ```bash
 cd TrafficLens (if you are not in the folder)
 cd frontend
+
 npm install/npm i
+
+npm install/npm i
+
 npm start
 ```
 
